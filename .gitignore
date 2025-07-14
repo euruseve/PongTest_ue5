@@ -22,6 +22,9 @@
 !/GitAssets/
 !/GitAssets/**
 
+# Allow README file
+!/README.md
+
 # Do not ignore git files in the root of the repo.
 !/.git*
 
