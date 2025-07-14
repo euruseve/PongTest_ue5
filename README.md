@@ -10,4 +10,4 @@ Here is an approximate look of the current prototype:
 ## Waiting for Second Player - Log Message
 This log message appears while waiting for the second player to join:
 
-![Waiting Log](waiting_log.png)
+![Waiting Log](GitAssets/waiting_log.png)
