@@ -79,7 +79,9 @@ void APongPawn::HorizontalMove(float AxisValue)
 {
     if (FMath::Abs(AxisValue) > 0.01f)
     {
-        FVector MovementDirection = FVector(0.0f, 1.0f, 0.0f);
+        FVector CameraRight = Camera->GetRightVector();
+        
+        FVector MovementDirection = CameraRight;
         
         FVector CurrentLocation = GetActorLocation();
         
